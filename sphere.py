@@ -21,7 +21,7 @@ print("this is the area of a rectangle", area_of_a_rectangle)
 triangle_height = 8
 triangle_base = 3
 area_of_a_triangle = triangle_height * triangle_base * .5
-print("the area of a trinagle is", area_of_a_triangle)
+print("the area of a triangle is", area_of_a_triangle)
 
 # problem 4
 compound_interest = 10000 * (1 + (0.08/12)) ** (12 * 10)
