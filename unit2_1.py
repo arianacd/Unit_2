@@ -1,6 +1,7 @@
 # by Ariana Daney
-# Last modified September 23, 2019
+# Last modified September 25, 2019
 # Unit 2 final project, option 1
+# this project creates a chatbot to talk with the user and calculate the monthly cost of a car
 
 name = (input("What is your name?"))
 print("Hello", name, ", my name is Pablo, its nice to meet you!")
@@ -20,6 +21,7 @@ print("Wow!", car_cost, "is a lot!")
 
 years = int(input("How many years would you take a loan to get your car"))
 
+# the following lines calculate how much would have to be payed for the car each month and total cost
 annual_rate = float(input("Whats the annual interest rate for your car?"))
 monthly_interest = (annual_rate / 100) / 12
 number_of_monthly_payments = years * 12
